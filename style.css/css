@@ -1,0 +1,132 @@
+/* Global Styles */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B052C;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar / Header Fix */
+.navbar {
+  background-color: #1B052C !important;
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  max-height: 100px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #ffffff !important;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #7BC3FF !important;
+}
+
+/* Header / Hero Section */
+header.ishi {
+  background-color: #1B052C;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 1rem auto;
+  color: #cccccc;
+}
+
+header .btn-primary {
+  background-color: #7BC3FF;
+  border: none;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  margin-top: 1rem;
+  color: #1B052C;
+}
+
+/* My Work Section */
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+section .row {
+  margin-bottom: 2rem;
+}
+
+section img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+section img:hover {
+  transform: scale(1.03);
+}
+
+.cishi{
+  color: #1B052C;
+}
+
+.ishi1{
+  color:rgb(54, 236, 221);
+}
+
+/* Footer Fix */
+footer {
+  background-color: #ffffff;
+  color: #1B052C;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+footer img {
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  margin: 0 0.5rem;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
